@@ -6,6 +6,9 @@
 # AndroidArchitectureComponents
 Android app showing use of  MVVM, Room, LiveData, RxJava and Retrofit2  together.
 
+
+[![](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/images/0)](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/links/0)[![](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/images/1)](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/links/1)[![](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/images/2)](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/links/2)[![](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/images/3)](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/links/3)[![](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/images/4)](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/links/4)[![](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/images/5)](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/links/5)[![](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/images/6)](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/links/6)[![](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/images/7)](https://sourcerer.io/fame/hgayan7/hgayan7/FilterLibrary/links/7)
+
 ## Flow Diagram
 
 
@@ -16,3 +19,21 @@ Android app showing use of  MVVM, Room, LiveData, RxJava and Retrofit2  together
 
 ## Screenshot
 ![Screenshot_1561542238](https://user-images.githubusercontent.com/29502161/60182101-3de19180-9841-11e9-99c7-525293f0477f.png)
+
+## License
+
+```
+  Copyright 2019 Himshikhar Gayan
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+```
