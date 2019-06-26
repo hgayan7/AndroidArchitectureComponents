@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Architecture Components</string>
+    <string name="fetch_and_save">Fetch and save</string>
+    <string name="delete_data">Delete data</string>
+</resources>
