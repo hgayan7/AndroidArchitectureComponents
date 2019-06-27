@@ -20,6 +20,13 @@ Android app showing use of  MVVM, Room, LiveData, RxJava and Retrofit2  together
 ## Screenshot
 ![Screenshot_1561542238](https://user-images.githubusercontent.com/29502161/60182101-3de19180-9841-11e9-99c7-525293f0477f.png)
 
+## TODOs
+```
+Use Dagger2 to prevent memory leaks in EmployeeRepository 
+Use Databinding
+
+```
+
 ## License
 
 ```
