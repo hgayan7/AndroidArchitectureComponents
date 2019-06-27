@@ -22,8 +22,8 @@ Android app showing use of  MVVM, Room, LiveData, RxJava and Retrofit2  together
 
 ## TODOs
 ```
-Use Dagger2 to prevent memory leaks in EmployeeRepository 
-Use Databinding
+1.Use Dagger2 to prevent memory leaks in EmployeeRepository 
+2.Use Databinding
 
 ```
 
