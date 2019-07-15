@@ -15,8 +15,8 @@ import java.util.List;
 
 public class EmployeeAdapter extends RecyclerView.Adapter<EmployeeAdapter.EmployeeViewHolder>{
 
-    Context context;
-    List<Employee> employeeList;
+    private Context context;
+    private List<Employee> employeeList;
 
     public EmployeeAdapter(Context context, List<Employee> employeeList){
         this.context = context;

@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Fetch API data and save to Room database and display the data saved in Room database in RecyclerView
     public void fetchAPI(View view){
-        employeeViewModel.getEmployees();
+        employeeViewModel.getEmployees(MainActivity.this);
         employeeViewModel.getEmployeeListData().observe(this,(employees)->{
             employeeRepository.getEmployeeData();
             employeeAdapter = new EmployeeAdapter(MainActivity.this,employees);
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         Completable.fromAction(new Action() {
             @Override
             public void run() throws Exception {
-                employeeViewModel.deleteUsers();
+                employeeViewModel.deleteUsers(MainActivity.this);
             }
         }).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new CompletableObserver() {
             @Override

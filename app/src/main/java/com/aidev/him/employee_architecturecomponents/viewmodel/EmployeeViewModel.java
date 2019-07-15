@@ -9,12 +9,10 @@ import com.aidev.him.employee_architecturecomponents.remote.EmployeeRepository;
 import java.util.List;
 
 public class EmployeeViewModel extends ViewModel {
-    private Context context;
     private EmployeeRepository employeeRepository;
     private LiveData<List<Employee>> employeeListData= new MutableLiveData<>();
 
     public EmployeeViewModel(Context context){
-        this.context = context;
         employeeRepository = new EmployeeRepository(context);
         employeeListData = employeeRepository.getListLiveData();
     }
@@ -23,13 +21,11 @@ public class EmployeeViewModel extends ViewModel {
         return employeeListData;
     }
 
-    public void getEmployees(){
-        this.context = context;
+    public void getEmployees(Context context){
         employeeRepository = new EmployeeRepository(context);
         employeeListData = employeeRepository.getListLiveData();
     }
-    public void deleteUsers(){
-        this.context =context;
+    public void deleteUsers(Context context){
         employeeRepository.deleteEmployeeData();
 
     }
